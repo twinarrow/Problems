@@ -39,7 +39,7 @@ namespace Thread
         }
         static string Greeting(string name)
         {
-            Parallel.For()
+           
             Thread.Sleep(3000);
 
             return string.Format("Hello, {0}", name);
